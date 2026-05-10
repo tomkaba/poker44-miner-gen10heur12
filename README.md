@@ -1,12 +1,12 @@
-# poker44-miner-gen10heur9
+# poker44-miner-gen10heur12
 
-Minimal release repository for model gen10heur9.
+Minimal release repository for model gen10heur12.
 
 ## Quick start
 
 ```bash
-git clone https://github.com/tomkaba/poker44-miner-gen10heur9.git
-cd poker44-miner-gen10heur9
+git clone https://github.com/tomkaba/poker44-miner-gen10heur12.git
+cd poker44-miner-gen10heur12
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -41,6 +41,7 @@ python neurons/miner.py
 
 ## Notes
 
-- Scorer is hardcoded to `gen10heur9`.
+- Scorer is hardcoded to `gen10heur12`.
+- Static prediction threshold is `0.54`.
 - This repository is single-model and model-specific.
 - Manifest `implementation_sha256` is computed over the full request-flow file set.
